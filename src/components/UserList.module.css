@@ -1,0 +1,22 @@
+.entries {
+  width: 33%;
+}
+.header-entries {
+  font-size: larger !important;
+  font-weight: bolder !important;
+}
+.item {
+  width: 100%;
+  padding: 20px 0px 20px 20px;
+  list-style-type: none;
+  display: flex;
+  font-weight: lighter;
+  font-size: large;
+}
+.item:hover:not(.header-entries) {
+  background: linear-gradient(to right, #82dbd8, #3bacb6, #2f8f9d);
+}
+.item:last-of-type:hover {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

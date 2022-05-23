@@ -1,0 +1,14 @@
+.search-input {
+  width: 40%;
+  border: 1px solid rgb(201, 201, 201);
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.search-input:focus-visible {
+  border: none !important;
+  /* box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.5); */
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  outline: none;
+
+  /* border: 1px solid #333 !important; */
+}

@@ -1,0 +1,11 @@
+.card {
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 30px;
+
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  background: #2980b9;
+  background: -webkit-linear-gradient(to right, #b3e8e5, #82dbd8, #3bacb6);
+  background: linear-gradient(to right, #b3e8e5, #82dbd8, #3bacb6);
+  border-radius: 10px;
+}
